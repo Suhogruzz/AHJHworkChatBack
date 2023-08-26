@@ -1,4 +1,4 @@
-export default class ArrayBufferConverter {
+class ArrayBufferConverter {
     #buffer
     constructor(buffer) {
         this.#buffer = buffer;
@@ -13,3 +13,5 @@ export default class ArrayBufferConverter {
         return str;
     }
 };
+
+ module.exports = ArrayBufferConverter;
